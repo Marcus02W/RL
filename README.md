@@ -2,6 +2,9 @@
 Repository featuring the visual evaluation notebook of the RL project of Marcus and Lukas (WWI21DSB). <br><br>
 In general the project has been about tuning, training and evaluating a DQN and a SAC model on the highway-env environment (https://highway-env.farama.org/index.html) as well as comparing their performance.
 
+## IMPORTANT
+The video visualizations do not show up after downloading from Colab and pushing to GitHub. The notebook needs to be run again with the model paths changed to the correct location after downloading the models from the drive like found below.
+
 #### IMPORTANT: The other notebooks are located on Kaggle since hyperparametertuning and training have been done there.
 
 #### The train notebooks do not feature any graphics visualizing training progression. We have decided to log all that data and integrate a wandb callback to create a broad range of visual training insights in a central and persistent place. Links to wandb spaces are listed below.
